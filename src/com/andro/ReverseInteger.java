@@ -52,4 +52,10 @@ public class ReverseInteger {
         return (num > 0 && num * Math.pow(10, i) > Integer.MAX_VALUE - result) ||
                 (num < 0 && num * Math.pow(10, i) < Integer.MIN_VALUE - result);
     }
+
+    /**
+     * Hints
+     * 1. 10, 100
+     * 2. Overflow -> 0
+     */
 }

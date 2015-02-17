@@ -42,4 +42,9 @@ public class ValidParentheses {
                 (left.equals("[") && right.equals("]")) ||
                 (left.equals("{") && right.equals("}"));
     }
+
+    /**
+     * Hints
+     * 1. Stack
+     */
 }

@@ -44,4 +44,10 @@ public class PalindromeNumber {
     public static int getDigit(int x, int i) {
         return (int) (x / Math.pow(10, i) % 10) ;
     }
+
+    /**
+     * Hints
+     * 1. Negative integers
+     * 2. Overflow -> false
+     */
 }
